@@ -40,7 +40,7 @@ class Login {
     }
 
     // Check SA cellphone number
-    public boolean checkCellPhoneNumber(String cellphone) { 
+    public boolean checkCellPhoneNumber(String cellphone) {
         if (!cellphone.startsWith("+27")) {
             return false;
         }
@@ -50,7 +50,7 @@ class Login {
     }
 
     // Register user
-    public String registerUser(String username, String password, String cellphone) {
+    public String registerUser(String username, String password, String cellphone) { 
 
         if (!checkUserName(username)) {
             return "Username is not correctly formatted. Please make sure it includes an underscore and is no more than five characters long.";

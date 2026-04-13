@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.registrationandlogin; 
+package com.mycompany.registrationandlogin;
 
 
 
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 class Login {
 

@@ -9,14 +9,14 @@ package com.mycompany.registrationandlogin;
 
 import java.util.Scanner;
 
-class Login { 
+class Login {
 
     private String username;
     private String password;
     private String cellphone;
 
     // Check username
-    public boolean checkUserName(String username) {
+    public boolean checkUserName(String username) { 
         return username.contains("_") && username.length() <= 5;
     }
 

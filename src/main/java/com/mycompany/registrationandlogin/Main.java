@@ -7,9 +7,9 @@ package com.mycompany.registrationandlogin;
 
 
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
-class Login {
+class Login { 
 
     private String username;
     private String password;

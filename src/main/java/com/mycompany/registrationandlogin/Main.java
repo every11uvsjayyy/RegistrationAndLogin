@@ -21,7 +21,7 @@ class Login {
     }
 
     // Check password complexity
-    public boolean checkPasswordComplexity(String password) { 
+    public boolean checkPasswordComplexity(String password) {
         boolean hasUpper = false;
         boolean hasNumber = false;
         boolean hasSpecial = false;
@@ -40,7 +40,7 @@ class Login {
     }
 
     // Check SA cellphone number
-    public boolean checkCellPhoneNumber(String cellphone) {
+    public boolean checkCellPhoneNumber(String cellphone) { 
         if (!cellphone.startsWith("+27")) {
             return false;
         }

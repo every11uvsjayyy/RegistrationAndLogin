@@ -16,12 +16,12 @@ class Login {
     private String cellphone;
 
     // Check username
-    public boolean checkUserName(String username) { 
+    public boolean checkUserName(String username) {
         return username.contains("_") && username.length() <= 5;
     }
 
     // Check password complexity
-    public boolean checkPasswordComplexity(String password) {
+    public boolean checkPasswordComplexity(String password) { 
         boolean hasUpper = false;
         boolean hasNumber = false;
         boolean hasSpecial = false;
